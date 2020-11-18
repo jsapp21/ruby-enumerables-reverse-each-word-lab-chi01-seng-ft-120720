@@ -1,6 +1,6 @@
 def reverse_each_word(sentence1)
   
-  sentence1.each 
+  sentence1.each do |
   
   return sentence1
 end
