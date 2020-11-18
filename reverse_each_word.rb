@@ -8,9 +8,8 @@ def reverse_each_word(sentence1)
   
   my_array.collect do |name|
     name.reverse
-    result = name.reverse
   end 
-  result.join(' ')
+  my_array.join(' ')
 
 end
 
