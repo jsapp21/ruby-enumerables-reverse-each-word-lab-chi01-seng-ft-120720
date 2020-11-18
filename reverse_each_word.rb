@@ -10,6 +10,9 @@ def reverse_each_word(sentence1)
   test = my_array.collect do |name|
     name.reverse 
   end 
+  test_two = my_array.each do |name|
+    name.reverse 
+  end
   binding.pry  
 end
 
