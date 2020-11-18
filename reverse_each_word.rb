@@ -10,7 +10,7 @@ def reverse_each_word(sentence1)
   my_array.each do |name|
     new_array << name.reverse 
   end 
-  binding.pry 
+  new_array.join(' ') 
 end
 
  
