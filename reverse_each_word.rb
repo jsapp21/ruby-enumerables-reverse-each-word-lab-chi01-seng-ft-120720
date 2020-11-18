@@ -7,10 +7,8 @@ def reverse_each_word(sentence1)
   my_array = sentence1.split
   
   my_array.each do |name|
-    name.reverse
     binding.pry 
-    result = name.reverse
-    result.join(' ')
+   
   end 
 end
 
