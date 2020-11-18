@@ -1,4 +1,4 @@
-# require 'pry'
+require 'pry'
  
   # result = my_array.reverse
   # final = result.join(' ') 
