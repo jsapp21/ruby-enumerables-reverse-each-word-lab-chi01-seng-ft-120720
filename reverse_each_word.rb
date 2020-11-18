@@ -6,10 +6,8 @@ require 'pry'
 def reverse_each_word(sentence1)
   my_array = sentence1.split
 
-  test_two = my_array.collect do |name|
-    name.reverse 
-  end
-  test_two.join(' ')  
+  my_array.collect { |name| name.reverse }.join(' ') 
+  
 end
 
  
