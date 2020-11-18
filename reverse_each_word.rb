@@ -8,7 +8,7 @@ def reverse_each_word(sentence1)
   new_array = []
   
   my_array.each do |name|
-    binding.pry 
+    new_array << name.reverse 
    
   end 
 end
