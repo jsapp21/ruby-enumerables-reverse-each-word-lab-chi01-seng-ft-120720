@@ -8,7 +8,7 @@ def reverse_each_word(sentence1)
     name.reverse value 
   end 
   
-  return element
+  # return element
 
 end
 
