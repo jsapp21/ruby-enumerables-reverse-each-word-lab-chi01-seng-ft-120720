@@ -4,7 +4,7 @@
 def reverse_each_word(sentence1)
   my_array = sentence1.split
   
-  element.each do |name, value|
+  my_array.each do |name, value|
     name.reverse value 
   end 
   
